@@ -1,1 +1,280 @@
 
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container{
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/Object.png);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  }
+  .nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .nav .links{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav .links a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size:0.8rem ;
+  }
+  .center{
+   width: 100%;
+   height: 200px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-top: 50px;
+  }
+  .center .btn{
+   padding: 10px 16px;
+   border-radius: 15px;
+   border: none;
+  background-color:rgb(194, 84, 194);
+  color: white;
+  box-shadow: 0px 0px 18px 2px  black;
+  }
+
+  .center h1{
+   margin: 0;
+   color: white;
+   font-size: 4rem;
+   font-family: sans-serif;
+  }
+  .center .center-links{
+   width: 25%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  }
+  .center .center-links a{
+   text-decoration: none;
+   color: white;
+   font-size: 0.9rem;
+  }
+
+  .bottom{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: rgb(224, 213, 213);
+  }
+  .bottom span{
+   color:rgb(194, 84, 194) ;
+  }
+  .bottom h1{
+   font-size: 1.3rem;
+  }
+
+  .bottom .testimonials{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-top: 40px;
+  }
+  .bottom .testimonials div{
+   height: 176px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   text-align: center;
+  }
+  .bottom .testimonials div img{
+   width: 60%;
+   border-radius: 50%;
+  }
+  .bottom .testimonials div p,h3{
+   margin: 0;
+  }
+  .bottom .testimonials div p{
+   font-size: 0.8rem;
+   color: gray;
+
+  }
+
+  .quote{
+  
+    height: 50vh;
+    background-color: rgb(194, 84, 194);
+
+  }
+  .quote .in{
+  width: 80%;
+  height: 100%;
+  background-color: rgb(194, 84, 194);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ color: white;
+ margin: 0 auto;
+}
+
+  .quote .texts{
+    width: 60%;
+   
+  }
+  .quote p,h1{
+    margin: 9px;
+  }
+
+  .video-list-section{
+    height: 70vh;
+    display: felx;
+    flex-direction: column;
+    text-align: center;
+   
+  }
+  .video-list{
+    height: 55vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+  }
+  .video-list h1,h3,p{
+    margin: 3px;
+  }
+  .video-list div{
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .video-list  span{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  .video-list  .profile{
+    width: 50px;
+    margin: 5px;
+  }
+  .video-list  h1{
+    font-size: 1.3rem;
+  }
+  .video-list div .thumbnail{
+    width: 180px;
+  }
+  .video-list-section span{
+    color:rgb(194, 84, 194);
+  }
+  .video-heading{
+    margin: 30px;
+  }
+  .play-logo{
+    width: 50px;
+    position: relative;
+    top: -80px;
+  }
+
+  .membership{
+    background-color: rgb(21, 21, 60);
+    width: 100%;
+    height: 60vh;
+    color: rgb(194, 175, 175);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .membership .list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+  .membership .list div{
+    width: 18%;
+  }
+  .membership .list div h1{
+    font-size: 1.3rem;
+  }
+  .membership span{
+    color:rgb(194, 84, 194) ;
+  }
+
+  .faq{
+    font-family:sans-serif;
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .faq .faq-topic{
+    font-size: 2.4rem;
+    font-weight: 100;
+  }
+  .faq-lists{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 180px;
+    row-gap: 70px;
+  }
+  .faq-lists p{
+    color: gray;
+    margin-top: 15px;
+  }
+
+  .footer{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(13, 6, 36);
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   }
+
+   .footer div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+
+   .footer div div{
+    width: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+
+   .footer div img{
+    width: 140px;
+   }
+
+   .footer div div i{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+    padding-top: 8px;
+   }
+
